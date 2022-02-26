@@ -5,7 +5,7 @@ const app = express();
 const connectDB = async () => {
     try {
         await mongoose.connect(
-            'mongodb+srv://lionhuynh:quynh.huynh@cluster0.sxcoo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+            'mongodb+srv://lionhuynh:quynh.huynh@cluster0.sxcoo.mongodb.net/fullstackMERN?retryWrites=true&w=majority'
         );
         console.log('MongoDB connected');
     } catch (err) {
